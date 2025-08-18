@@ -107,6 +107,7 @@ Black: #000000 (Black)
 
 html {
     font-size: 62.5%;
+    /* 10px / 16px = 62.5% */
 }
 
 body {
@@ -288,6 +289,7 @@ span {
 
 .hero-paragraph {
     margin-bottom: 5rem;
+    text-align: center;
 }
 
 .hero-btns {

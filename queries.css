@@ -1,0 +1,81 @@
+/* LG SMALL LAPTOPS 1024px - 1280px */
+
+@media (max-width: 72rem) {
+    /* 1150px / 16px = 72rem */
+
+    html {
+        font-size: 56.25%;
+/*  9px / 16px = 56.25% */
+    }
+    .feature-grid-container {
+        column-gap: 2rem;
+
+    }
+    .cta-section {
+    margin-bottom: 20rem;
+}
+}
+
+/* MD TABLETS 768px - 1028px */
+
+@media (max-width: 51rem) {
+    /* 815px / 16px = 51rem */
+    html {
+        font-size: 50%;
+        /* 8px / 16px = 50% */
+    }
+}
+
+/* SM PHONE LANDSCAPE 576px - 768px */
+
+@media (max-width: 43rem) {
+    /* 690px / 16px = 43rem */
+    html {
+        font-size: 43.75%;
+        /* 7px / 16px = 43.75% */
+    }
+
+    .cta-card {
+        padding: 8rem 15rem;
+    }
+
+    .feature-section {
+        margin-bottom: 20rem;
+    }
+
+    .feature-grid-container {
+        row-gap: 5rem;
+        column-gap: 0.5rem;
+    }
+    
+    .hero-section {
+        height: auto;
+    }
+
+}
+
+@media (max-width: 33rem) {
+    /* 520px / 16px = 33rem */
+
+    html {
+        font-size: 37.5%;
+        /* 6px / 16px = 37.5% */
+    }
+
+    .cta-card {
+        padding: 8rem 6rem ;
+    }
+
+    .feature-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-image-swap-order {
+    grid-row: auto;
+    }
+
+    .br-none {
+        display: none;
+    }
+
+}
