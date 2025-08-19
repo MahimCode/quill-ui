@@ -249,6 +249,24 @@ span {
     width: 80px;
 }
 
+.chat-icon {
+    width: 5rem;
+    height: 5rem;
+}
+
+.chat-container {
+    width: 7rem;
+    height: 7rem;
+    background-color: var(--primary-tint);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
 /* --------------------------------------- SECTIONS --------------------------------------- */
 
 /* --------------------------  HEADER (NAVBAR + HERO SECTION)  -------------------------- */
